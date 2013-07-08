@@ -1,2 +1,4 @@
-name: Your New Jekyll Site
+name: Josh Click
+safe: true
+lsi: false
 pygments: true
