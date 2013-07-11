@@ -1970,7 +1970,7 @@ p.lead {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
 }
@@ -2038,7 +2038,7 @@ p aside {
 /* line 181, ../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.2.3/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-weight: 200;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -4367,12 +4367,12 @@ form.custom .custom.disabled {
 /* line 117, ../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
   line-height: 45px;
-  font-size: 1.0625em;
+  font-size: 1.25em;
   margin: 0;
 }
 /* line 121, ../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
-  font-weight: bold;
+  font-weight: 200;
   color: white;
   width: 50%;
   display: block;
@@ -4476,7 +4476,7 @@ form.custom .custom.disabled {
   padding: 12px 0 12px 0;
   padding-left: 15px;
   font-size: 0.8125em;
-  font-weight: bold;
+  font-weight: 200;
   background: #222222;
 }
 /* line 246, ../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
@@ -6688,4 +6688,15 @@ a.th {
 /* line 1, ../_sass/_custom.scss */
 ul {
   list-style-type: none;
+}
+
+/* line 5, ../_sass/_custom.scss */
+.published {
+  font-size: 1em;
+  color: #5D5D5D;
+}
+
+/* line 10, ../_sass/_custom.scss */
+.note {
+  color: #444;
 }

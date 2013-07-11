@@ -138,7 +138,7 @@ $default-float: left;
 // Heading font styles
 
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+ $header-font-weight: 200;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
@@ -159,7 +159,7 @@ $default-float: left;
 
 // $subheader-line-height: 1.4;
 // $subheader-font-color: lighten($header-font-color, 30%);
-// $subheader-font-weight: 300;
+$subheader-font-weight: 200;
 // $subheader-top-margin: .2em;
 // $subheader-bottom-margin: .5em;
 
@@ -1217,8 +1217,8 @@ $default-float: left;
 
 // Controlling the styles for the title in the top bar
 
-// $topbar-title-weight: bold;
-// $topbar-title-font-size: emCalc(17px);
+$topbar-title-weight: 200;
+$topbar-title-font-size: emCalc(20px);
 
 // Style the top bar dropdown elements
 
@@ -1234,7 +1234,7 @@ $default-float: left;
 // $topbar-link-color: #fff;
 // $topbar-link-color-hover: #fff;
 // $topbar-link-color-active: #fff;
-// $topbar-link-weight: bold;
+$topbar-link-weight: 200;
 // $topbar-link-font-size: emCalc(13px);
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
 // $topbar-link-bg-hover: darken($topbar-bg, 3%);
