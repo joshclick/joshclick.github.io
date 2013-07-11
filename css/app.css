@@ -6684,3 +6684,8 @@ a.th {
 .f-dropdown.large {
   max-width: 800px;
 }
+
+/* line 1, ../_sass/_custom.scss */
+ul {
+  list-style-type: none;
+}
