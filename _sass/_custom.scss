@@ -1,3 +1,7 @@
+html {
+	background-color: #0CA7D2;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -9,4 +13,18 @@ ul {
 
 .note {
 	color: #444;
+}
+
+#blog-posts {
+	height: 100%;
+
+	#post-list {
+		padding: 0;
+
+		li {
+			padding: 10px 15px;
+			&:nth-child(odd) { background-color: #0084AA; }
+			&:nth-child(even) { background-color: #0A99C3; }
+		}
+	}
 }
