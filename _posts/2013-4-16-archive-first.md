@@ -12,4 +12,4 @@ Who knows...
 
 The path this takes will be fascinating to see.  Whatever happens, I hope to look back on these posts sometime in the future and think to myself, "hm.. i've done pretty well over the years..."
 
-<p><em>Note: Archived posts are from my old site, which was built in PHP</em></p>
+<p><em>Note: Archived posts are from my old site.</em></p>

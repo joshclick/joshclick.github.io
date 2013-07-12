@@ -2,7 +2,29 @@ ul {
 	list-style-type: none;
 }
 
-.published {
-	font-size: 0.9em;
-	color: #444;
+.post {		
+	margin-bottom: 50px;
+	.published {
+		font-size: 0.9em;
+		color: #444;
+	}
+}
+
+#main-img {
+	overflow: hidden;
+
+	img { margin: -80px 0; }
+
+}
+
+#story {
+	margin-bottom: 50px;
+	.event {
+		margin-top: 50px;
+		border-top: 1px dashed #777;
+		padding-top: 50px;
+		p {
+			margin-bottom: 1em;
+		}
+	}
 }

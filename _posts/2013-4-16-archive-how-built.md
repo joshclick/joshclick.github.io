@@ -16,4 +16,4 @@ Oh, and here's my favorite internet cat, Lil Bub :)
 
 <img src="http://wac.450f.edgecastcdn.net/80450F/thefw.com/files/2012/07/lil-bub-cute-cat-2.jpg" alt="lilbub">
 
-<p><em>Note: Archived posts are from my old site, which was built in PHP</em></p>
+<p><em>Note: Archived posts are from my old site.</em></p>
