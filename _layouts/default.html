@@ -8,9 +8,9 @@
   <title>{{ page.title }}</title>
 
   <!-- Normalizer & Foundation v4 -->
-  <link rel="stylesheet" href="{{ site.url }}/css/app.css" />
+  <link rel="stylesheet" href="{{ site.media_url }}/css/app.css" />
 
-  <script src="{{ site.url }}/js/vendor/custom.modernizr.js"></script>
+  <script src="{{ site.media_url }}/js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
@@ -28,36 +28,35 @@
         <li class=""><a href="/">Blog</a></li>
         <li class="divider"></li>
         <li class=""><a href="/story.html">My Story</a></li>
+        <li class="divider"></li>
+        <li class=""><a href="/bookmarks.html">My Bookmarks</a></li>
       </ul>
     </section>
   </nav>
 
-  <div class="row">
-    <div class="large-12 columns">
-      {{ content }}
-    </div>
-  </div>
+
+  {{ content }}
 
   <script>
   document.write('<script src=' +
-    ('__proto__' in {} ? '{{ site.url }}/js/vendor/zepto' : '{{ site.url }}/js/vendor/jquery') +
+    ('__proto__' in {} ? '{{ site.media_url }}/js/vendor/zepto' : '{{ site.media_url }}/js/vendor/jquery') +
     '.js><\/script>')
   </script>
-  <script src="{{ site.url }}/js/foundation/foundation.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.alerts.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.clearing.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.cookie.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.dropdown.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.forms.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.joyride.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.magellan.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.orbit.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.placeholder.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.reveal.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.section.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.tooltips.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.topbar.js"></script>
-  <script src="{{ site.url }}/js/foundation/foundation.interchange.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.alerts.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.clearing.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.cookie.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.dropdown.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.forms.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.joyride.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.magellan.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.orbit.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.placeholder.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.reveal.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.section.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.tooltips.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.topbar.js"></script>
+  <script src="{{ site.media_url }}/js/foundation/foundation.interchange.js"></script>
   <script>
   $(document).foundation();
   </script>

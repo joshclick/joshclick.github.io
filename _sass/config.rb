@@ -3,9 +3,9 @@ require 'zurb-foundation'
 
 http_path = "/"
 sass_dir = "./"
-css_dir = "../css"
-images_dir = "../img"
-javascripts_dir = "../js"
+css_dir = "../assets/css"
+images_dir = "../assets/img"
+javascripts_dir = "../assets/js"
 relative_assets = true
 
 # You can select your preferred output style here (can be overridden via the command line):
