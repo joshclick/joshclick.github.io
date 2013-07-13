@@ -1,6 +1,86 @@
 ---
 layout: default
 title: My Story
+events:
+- [
+    "January 8, 1993&#58; Age 0",
+    "Birth",
+    "Shanghai, China"
+  ]
+- [
+    "Date Unknown&#58; Age 3",
+    "Move to America",
+    "San Antonio, Texas, USA"
+  ]
+- [
+    "September 6, 2011&#58; Age 18",
+    "First Day of Classes @ NYU",
+    "4th &amp; Uni, New York, NY"
+  ]
+- [
+    "January 3 - 10, 2012&#58; Age 19",
+    "NYU Presidential Honors Scholars", Winter Trip "Florence, Italy"
+  ]
+- [
+    "March 10-18, 2012",
+    "Alternative Spring Break",
+    "Joplin, MO"
+  ]
+- [
+    "May 2012 - January 2013",
+    "Internship @ TickPick",
+    "38th &amp; 9th, New York"
+  ]
+- [
+    "August 21 - September 1, 2012",
+    "NYU Welcome Week Leader",
+    "4th &amp; Uni, New York"
+  ]
+- [
+    "September 4, 2012",
+    "First Day of Classes - Sophomore Year",
+    "New York, NY"
+  ]
+- [
+    "October 29 - November 2, 2012",
+    "Hurricane Sandy Power Outage",
+    "Kimmel Center, New York"
+  ]
+- [
+    "January 18-20, 2013&#58; Age 20",
+    "PennApps 2013 Spring Hackathon",
+    "UPenn, Philadelphia, PA"
+  ]
+- [
+    "March 17-24, 2013",
+    "NYU Presidential Honors Scholars Spring Trip",
+    "Berlin, Germany"
+  ]
+- [
+    "April 6-7, 2013",
+    "HackNY Hackathon",
+    "Columbia, New York, NY"
+  ]
+- [
+    "June 2, 2013 - Present",
+    "HackNY Fellowship",
+    "New York, NY"
+  ]
+- [
+    "June 4, 2013 - Present",
+    "Internship @ Parsely",
+    "25th &amp; 7th, New York"
+  ]
+- [
+    "June 11, 2013",
+    "Love",
+    "14th &amp; 3rd, New York"
+  ]
+- [
+    "Present - The End",
+    "Happ<em>y</em>ness",
+    "Earth"
+  ]
 ---
 
 <div class="row" id="main-img">
@@ -14,86 +94,12 @@ title: My Story
     <h1>Join Me</h1>
     <p>join my life ... life is an adventure, so join my adventure.</p>
 
+    {% for event in page.events %}
     <div class="event">
-        <p>January 8, 1993: Age 0</p>
-        <h3>Birth</h3>
-        <h4>Shanghai, China</h4>
+        <p>{{ event[0] }}</p>
+        <h3>{{ event[1] }}</h3>
+        <h4>{{ event[2] }}</h4>
     </div>
-    <div class="event">
-      <p>Date Unknown: Age 3</p>
-      <h3>Move to America</h3>
-      <h4>San Antonio, Texas, USA</h4>
-    </div>
-    <div class="event">
-      <p>September 6, 2011: Age 18</p>
-      <h3>First Day of Classes @ NYU</h3>
-      <h4>4th &amp; Uni, New York, NY</h4>
-    </div>
-    <div class="event">
-      <p>January 3 - 10, 2012: Age 19</p>
-      <h3>NYU Presidential Honors Scholars Winter Trip</h3>
-      <h4>Florence, Italy</h4>
-    </div>
-    <div class="event">
-      <p>March 10-18, 2012</p>
-      <h3>Alternative Spring Break</h3>
-      <h4>Joplin, MO</h4>
-    </div>
-    <div class="event">
-      <p>May 2012 - January 2013</p>
-      <h3>Internship @ TickPick</h3>
-      <h4>38th &amp; 9th, New York</h4>
-    </div>
-    <div class="event">
-      <p>August 21 - September 1, 2012</p>
-      <h3>NYU Welcome Week Leader</h3>
-      <h4>4th &amp; Uni, New York</h4>
-    </div>
-    <div class="event">
-      <p>September 4, 2012</p>
-      <h3>First Day of Classes - Sophomore Year</h3>
-      <h4>New York, NY</h4>
-    </div>
-    <div class="event">
-      <p>October 29 - November 2, 2012</p>
-      <h3>Hurricane Sandy Power Outage</h3>
-      <h4>Kimmel Center, New York</h4>
-    </div>
-    <div class="event">
-      <p>January 18-20, 2013: Age 20</p>
-      <h3>PennApps 2013 Spring Hackathon</h3>
-      <h4>UPenn, Philadelphia, PA</h4>
-    </div>
-    <div class="event">
-      <p>March 17-24, 2013</p>
-      <h3>NYU Presidential Honors Scholars Spring Trip</h3>
-      <h4>Berlin, Germany</h4>
-    </div>
-    <div class="event">
-      <p>April 6-7, 2013</p>
-      <h3>HackNY Hackathon</h3>
-      <h4>Columbia, New York, NY</h4>
-    </div>
-    <div class="event">
-      <p>June 2, 2013 - Present</p>
-      <h3>HackNY Fellowship</h3>
-      <h4>New York, NY</h4>
-    </div>
-    <div class="event">
-      <p>June 4, 2013 - Present</p>
-      <h3>Internship @ Parsely</h3>
-      <h4>25th &amp; 7th, New York</h4>
-    </div>
-    <div class="event">
-      <p>June 11, 2013</p>
-      <h3>Love</h3>
-      <h4>14th &amp; 3rd, New York</h4>
-    </div>
-    <div class="event">
-      <p>Present - The End</p>
-      <h3>Happ<em>y</em>ness</h3>
-      <h4>Earth</h4>
-    </div>
-    <div class="event"></div>
-  </div>
+    {% endfor %}
+    <div class="event"></div></div>
 </div>
