@@ -1,11 +1,27 @@
 ---
 layout: default
 title: My Bookmarks
+cats:
+- name: Design
+  links:
+  - ["Hack Design- Learn Design, from the ground up","http://hackdesign.org/"]
+- name: Quora
+  links:
+  - ["What are the top TED talks that have changed your life or your perspective about some aspect of life?","http://www.quora.com/TED-Talks/What-are-the-top-TED-talks-that-have-changed-your-life-or-your-perspective-about-some-aspect-of-life"]
 ---
 
 <div class="row">
   <div class="small-12 columns">
     <h1>My Bookmarks</h1>
     <p>Here I've saved some useful/insightful/meaningful links</p>
+
+    {% for cat in page.cats %}
+      <h2>{{ cat.name }}</h2>
+      <ul>
+        {% for link in cat.links %}
+          <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
   </div>
 </div>

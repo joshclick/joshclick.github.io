@@ -5688,3 +5688,7 @@ a.th {
 #story .event p {
   margin-bottom: 1em;
 }
+
+ul {
+  list-style-type: none;
+}
