@@ -6686,40 +6686,35 @@ a.th {
 }
 
 /* line 1, ../_sass/_custom.scss */
-ul {
-  list-style-type: none;
-}
-
-/* line 5, ../_sass/_custom.scss */
 .post {
   margin-bottom: 50px;
 }
-/* line 7, ../_sass/_custom.scss */
+/* line 3, ../_sass/_custom.scss */
 .post .published {
   font-size: 0.9em;
   color: #444;
 }
 
-/* line 13, ../_sass/_custom.scss */
+/* line 9, ../_sass/_custom.scss */
 #main-img {
   overflow: hidden;
 }
-/* line 16, ../_sass/_custom.scss */
+/* line 12, ../_sass/_custom.scss */
 #main-img img {
   margin: -80px 0;
 }
 
-/* line 20, ../_sass/_custom.scss */
+/* line 16, ../_sass/_custom.scss */
 #story {
   margin: 30px 0 50px;
 }
-/* line 22, ../_sass/_custom.scss */
+/* line 18, ../_sass/_custom.scss */
 #story .event {
   margin-top: 50px;
   border-top: 1px dashed #777;
   padding-top: 50px;
 }
-/* line 26, ../_sass/_custom.scss */
+/* line 22, ../_sass/_custom.scss */
 #story .event p {
   margin-bottom: 1em;
 }
