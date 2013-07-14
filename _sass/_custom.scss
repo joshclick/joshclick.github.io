@@ -41,19 +41,22 @@ ul {
 }
  
 
-#abilities .meter {
-	float: left;
+#abilities .progress {
+	border: none;
 
-	$lvl1: #db4d00;
-	$lvl2: #f57800;
-	$lvl3: #f7b101;
-	$lvl4: #f5db00;
-	$lvl5: #cade01;
-	$lvl6: #8EDE01;
+	.meter {
+		float: left;
+		width: 19.2%;
+		margin-right: 1%;
 
-	&.lvl1 { @include h-gradient($lvl1 0, $lvl2 80%); }
-	&.lvl2 { @include h-gradient($lvl2 0, $lvl3 80%); }
-	&.lvl3 { @include h-gradient($lvl3 0, $lvl4 80%); }
-	&.lvl4 { @include h-gradient($lvl4 0, $lvl5 80%); }
-	&.lvl5 { @include h-gradient($lvl5 0, $lvl6 80%); }
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&.lvl1 { background: #f57800; }
+		&.lvl2 { background: #f7b101; }
+		&.lvl3 { background: #f5db00; }
+		&.lvl4 { background: #cade01; }
+		&.lvl5 { background: #8EDE01; }
+	}
 }
