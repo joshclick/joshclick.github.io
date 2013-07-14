@@ -1,5 +1,6 @@
 .post {		
 	margin-bottom: 50px;
+	
 	.published {
 		font-size: 0.9em;
 		color: #444;
@@ -35,11 +36,6 @@
 ul {
 	list-style-type: none;
 }
-
-@mixin h-gradient($start, $end) {
-  @include background-image(linear-gradient(left, $start, $end));
-}
- 
 
 #abilities .progress {
 	border: none;
