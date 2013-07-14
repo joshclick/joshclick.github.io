@@ -5671,10 +5671,10 @@ a.th {
 }
 
 #main-img {
-  overflow: hidden;
-}
-#main-img img {
-  margin: -7% 0;
+  background-image: url("../img/forest-ponder.jpg");
+  background-size: 1024px;
+  background-position-x: 50%;
+  height: 400px;
 }
 
 #story {
@@ -5692,6 +5692,7 @@ a.th {
   max-width: 400px;
   width: 100%;
   margin-left: -5%;
+  opacity: 0.9;
 }
 
 ul {

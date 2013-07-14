@@ -1,6 +1,23 @@
 ---
 layout: default
 title: My Story
+customjs: |
+  $(document).ready(function(){
+    $window = $(window);
+    var imgDiv = $('#main-img')
+                      
+    $(window).scroll(function() {
+      var yPos = -$window.scrollTop(); 
+
+      if (yPos > 0) yPos = '0px';
+
+      yPos /= 2;
+
+
+      imgDiv.css({ 'background-position-y': yPos + 'px'});
+      
+    });
+  }); 
 events:
 - [
     "January 8, 1993&#58; Age 0",
@@ -83,11 +100,7 @@ events:
   ]
 ---
 
-<div class="row" id="main-img">
-  <div class="small-12 columns">
-    <img src="{{ site.media_url }}/img/forest-ponder.jpg" alt="Forest Pondering">
-  </div>
-</div>
+<div class="row" id="main-img"></div>
 
 <div class="row text-center" id="story">
   <div class="small-12 columns">
