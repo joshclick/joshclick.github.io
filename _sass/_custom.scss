@@ -1,19 +1,17 @@
 .post {		
 	margin-bottom: 50px;
-
+	
 	.published {
 		font-size: 0.9em;
 		color: #444;
 	}
 }
 
-
-// Story
 #main-img {
-	background-image: url('../img/forest-ponder.jpg');
-	background-size: 1024px;
-	background-position-x: 50%;
-	height: 400px;
+	overflow: hidden;
+
+	img { margin: -7% 0; }
+
 }
 
 #story {
@@ -32,10 +30,8 @@
 		max-width: 400px;
 		width: 100%;
 		margin-left: -5%;
-		opacity: 0.9;
 	}
 }
-
 
 ul {
 	list-style-type: none;
