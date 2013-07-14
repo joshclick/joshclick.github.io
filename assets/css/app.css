@@ -5697,3 +5697,42 @@ a.th {
 ul {
   list-style-type: none;
 }
+
+#abilities .meter {
+  float: left;
+}
+#abilities .meter.lvl1 {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #db4d00), color-stop(80%, #f57800));
+  background-image: -webkit-linear-gradient(left, #db4d00 0%, #f57800 80%);
+  background-image: -moz-linear-gradient(left, #db4d00 0%, #f57800 80%);
+  background-image: -o-linear-gradient(left, #db4d00 0%, #f57800 80%);
+  background-image: linear-gradient(left, #db4d00 0%, #f57800 80%);
+}
+#abilities .meter.lvl2 {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f57800), color-stop(80%, #f7b101));
+  background-image: -webkit-linear-gradient(left, #f57800 0%, #f7b101 80%);
+  background-image: -moz-linear-gradient(left, #f57800 0%, #f7b101 80%);
+  background-image: -o-linear-gradient(left, #f57800 0%, #f7b101 80%);
+  background-image: linear-gradient(left, #f57800 0%, #f7b101 80%);
+}
+#abilities .meter.lvl3 {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f7b101), color-stop(80%, #f5db00));
+  background-image: -webkit-linear-gradient(left, #f7b101 0%, #f5db00 80%);
+  background-image: -moz-linear-gradient(left, #f7b101 0%, #f5db00 80%);
+  background-image: -o-linear-gradient(left, #f7b101 0%, #f5db00 80%);
+  background-image: linear-gradient(left, #f7b101 0%, #f5db00 80%);
+}
+#abilities .meter.lvl4 {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f5db00), color-stop(80%, #cade01));
+  background-image: -webkit-linear-gradient(left, #f5db00 0%, #cade01 80%);
+  background-image: -moz-linear-gradient(left, #f5db00 0%, #cade01 80%);
+  background-image: -o-linear-gradient(left, #f5db00 0%, #cade01 80%);
+  background-image: linear-gradient(left, #f5db00 0%, #cade01 80%);
+}
+#abilities .meter.lvl5 {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #cade01), color-stop(80%, #8ede01));
+  background-image: -webkit-linear-gradient(left, #cade01 0%, #8ede01 80%);
+  background-image: -moz-linear-gradient(left, #cade01 0%, #8ede01 80%);
+  background-image: -o-linear-gradient(left, #cade01 0%, #8ede01 80%);
+  background-image: linear-gradient(left, #cade01 0%, #8ede01 80%);
+}

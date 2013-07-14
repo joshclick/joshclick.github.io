@@ -35,3 +35,25 @@
 ul {
 	list-style-type: none;
 }
+
+@mixin h-gradient($start, $end) {
+  @include background-image(linear-gradient(left, $start, $end));
+}
+ 
+
+#abilities .meter {
+	float: left;
+
+	$lvl1: #db4d00;
+	$lvl2: #f57800;
+	$lvl3: #f7b101;
+	$lvl4: #f5db00;
+	$lvl5: #cade01;
+	$lvl6: #8EDE01;
+
+	&.lvl1 { @include h-gradient($lvl1 0, $lvl2 80%); }
+	&.lvl2 { @include h-gradient($lvl2 0, $lvl3 80%); }
+	&.lvl3 { @include h-gradient($lvl3 0, $lvl4 80%); }
+	&.lvl4 { @include h-gradient($lvl4 0, $lvl5 80%); }
+	&.lvl5 { @include h-gradient($lvl5 0, $lvl6 80%); }
+}

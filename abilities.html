@@ -1,0 +1,36 @@
+---
+layout: default
+title: My Abilities
+abilities:
+- [Python, 3]
+- [Java, 2]
+- [Ruby, 1]
+- [Ruby on Rails, 1]
+- [Jekyll, 4]
+- [Hyde, 4]
+- [Liquid, 3]
+- [Jinja2, 4]
+- [HTML, 4]
+- [CSS, 4]
+- [JS, 4]
+- [Yo-o-ing, 5]
+---
+
+<div class="row" id="abilities">
+  <div class="small-12 columns">
+    <h1>My Abilities</h1>
+    <p>Languages/Skills I know</p>
+    <ul>
+      {% for ability in page.abilities %}
+        <li>
+          {{ ability[0] }}
+          <div class="progress">
+            {% for lvl in (1..ability[1]) %}
+              <span class="meter lvl{{ lvl }}" style="width: 20%"></span>
+            {% endfor %} 
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
