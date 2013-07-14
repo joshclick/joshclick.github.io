@@ -48,5 +48,8 @@
   <script>
     $(document).foundation();
   </script>
+  {% if page.customjs %}
+    <script type="text/javascript">{{ page.customjs }}</script>
+  {% endif %}
 </body>
 </html>
