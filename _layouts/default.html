@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width" />
   <title>{{ page.title }}</title>
 
-  <!-- Normalizer & Foundation v4 -->
   <link rel="stylesheet" href="{{ site.media_url }}/css/app.css" />
 
   <script src="{{ site.media_url }}/js/vendor/custom.modernizr.js"></script>
@@ -15,6 +14,7 @@
 </head>
 <body>
   <nav class="top-bar" style="">
+
     <ul class="title-area">
       <li class="name">
         <h1><a href="/">Josh Click</a></h1>
@@ -34,8 +34,8 @@
         <li class=""><a href="/bookmarks.html">My Bookmarks</a></li>
       </ul>
     </section>
-  </nav>
 
+  </nav>
 
   {{ content }}
 
@@ -44,23 +44,9 @@
     ('__proto__' in {} ? '{{ site.media_url }}/js/vendor/zepto' : '{{ site.media_url }}/js/vendor/jquery') +
     '.js><\/script>')
   </script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.alerts.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.clearing.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.cookie.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.dropdown.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.forms.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.joyride.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.magellan.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.orbit.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.placeholder.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.reveal.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.section.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.tooltips.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.topbar.js"></script>
-  <script src="{{ site.media_url }}/js/foundation/foundation.interchange.js"></script>
+  <script src="{{ site.media_url }}/js/foundation.min.js"></script>
   <script>
-  $(document).foundation();
+    $(document).foundation();
   </script>
 </body>
 </html>
