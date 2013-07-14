@@ -5688,6 +5688,11 @@ a.th {
 #story .event p {
   margin-bottom: 1em;
 }
+#story #seedling {
+  max-width: 400px;
+  width: 100%;
+  margin-left: -5%;
+}
 
 ul {
   list-style-type: none;

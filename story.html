@@ -94,12 +94,13 @@ events:
     <h1>Join Me</h1>
     <p>join my life ... life is an adventure, so join my adventure.</p>
 
-    {% for event in page.events %}
-    <div class="event">
-        <p>{{ event[0] }}</p>
-        <h3>{{ event[1] }}</h3>
-        <h4>{{ event[2] }}</h4>
-    </div>
+    {% for event in page.events reversed %}
+      <div class="event">
+          <p>{{ event[0] }}</p>
+          <h3>{{ event[1] }}</h3>
+          <h4>{{ event[2] }}</h4>
+      </div>
     {% endfor %}
-    <div class="event"></div></div>
+    <img id="seedling" src="{{ site.media_url }}/img/seedling.png" alt="Seedling">
+  </div>
 </div>
