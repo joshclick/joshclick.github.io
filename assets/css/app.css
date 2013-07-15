@@ -487,7 +487,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 58.75em;
   *zoom: 1;
 }
 .row:before, .row:after {
@@ -3920,7 +3920,7 @@ form.custom .custom.disabled {
   }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5em;
+    max-width: 58.75em;
     margin: 0 auto;
   }
 
@@ -5796,4 +5796,21 @@ ul {
   -ms-animation: progress-bar-stripes 2s linear infinite;
   -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
+}
+
+.icon {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}
+.icon.gh {
+  background-image: url("../img/icon-gh.png");
+}
+.icon.fb {
+  background-image: url("../img/icon-fb.png");
+}
+.icon.in {
+  background-image: url("../img/icon-in.png");
 }
