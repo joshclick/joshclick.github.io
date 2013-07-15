@@ -2,32 +2,48 @@
 layout: default
 title: My Abilities
 abilities:
-- [Python, 3]
+# [name, lvl, inProgress]
+- [HTML, 4, 1]
+- [CSS, 4, 1]
+- [JS, 4, 1]
+- [Python, 3, 1]
+- [Jekyll, 4, 1]
+- [Hyde, 4, 1]
+- [Liquid, 3, 1]
+- [Jinja2, 4, 1]
+- [Ruby, 1, 1]
 - [Java, 2]
-- [Ruby, 1]
 - [Ruby on Rails, 1]
-- [Jekyll, 4]
-- [Hyde, 4]
-- [Liquid, 3]
-- [Jinja2, 4]
-- [HTML, 4]
-- [CSS, 4]
-- [JS, 4]
 - [Yo-o-ing, 5]
 ---
-
 <div class="row" id="abilities">
   <div class="small-12 columns">
     <h1>My Abilities</h1>
-    <p>Languages/Skills I know</p>
+
+    <h2>Legend:</h2>
+    <div class="progress legend">
+      <span class="meter lvl1">N00B</span>
+      <span class="meter lvl2">COMMON</span>
+      <span class="meter lvl3">PROFICIENT</span>
+    </div>
+    <div class="progress legend">
+      <span class="meter lvl4">ADVANCED</span>
+      <span class="meter lvl5">1337</span>
+      <span class="meter lvl5 striped active">LEVELING UP</span>
+    </div>
+
+    <h2>Abilities:</h2>
     <ul>
       {% for ability in page.abilities %}
         <li>
-          {{ ability[0] }}
+          <h4>{{ ability[0] }}</h4>
           <div class="progress">
             {% for lvl in (1..ability[1]) %}
               <span class="meter lvl{{ lvl }}"></span>
             {% endfor %} 
+            {% if ability[2] == 1 %}
+              <span class="meter lvl5 striped active"></span>
+            {% endif %}
           </div>
         </li>
       {% endfor %}
