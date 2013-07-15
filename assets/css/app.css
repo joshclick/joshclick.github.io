@@ -5759,6 +5759,7 @@ ul {
   vertical-align: middle;
   line-height: 26px;
   color: white;
+  font-weight: bold;
 }
 #abilities .progress .meter:last-child {
   margin-right: 0;
