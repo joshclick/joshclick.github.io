@@ -5669,6 +5669,10 @@ a.th {
   font-size: 0.9em;
   color: #444;
 }
+.post ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
 
 #main-img {
   overflow: hidden;
