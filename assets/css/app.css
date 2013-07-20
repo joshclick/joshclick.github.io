@@ -5681,6 +5681,14 @@ a.th {
   margin: -7% 0;
 }
 
+#about {
+  max-width: 760px;
+}
+#about img {
+  max-width: 600px;
+  width: 100%;
+}
+
 #story {
   margin-top: 30px;
 }
