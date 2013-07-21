@@ -1806,7 +1806,7 @@ dl {
 }
 
 ul, ol {
-  margin-left: 0;
+  margin-left: 1.875em;
 }
 
 /* Unordered Lists */
@@ -5662,20 +5662,12 @@ a.th {
   max-width: 800px;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .post {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .post .published {
   font-size: 0.9em;
   color: #444;
-}
-.post ul {
-  list-style-type: disc;
-  padding-left: 20px;
 }
 
 #about img {

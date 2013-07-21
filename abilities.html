@@ -33,20 +33,18 @@ abilities:
     </div>
 
     <h2>Abilities:</h2>
-    <ul>
-      {% for ability in page.abilities %}
-        <li>
-          <h4>{{ ability[0] }}</h4>
-          <div class="progress">
-            {% for lvl in (1..ability[1]) %}
-              <span class="meter lvl{{ lvl }}"></span>
-            {% endfor %} 
-            {% if ability[2] == 1 %}
-              <span class="meter lvl5 striped active"></span>
-            {% endif %}
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+    {% for ability in page.abilities %}
+      <div class="ability">
+        <h4>{{ ability[0] }}</h4>
+        <div class="progress">
+          {% for lvl in (1..ability[1]) %}
+            <span class="meter lvl{{ lvl }}"></span>
+          {% endfor %} 
+          {% if ability[2] == 1 %}
+            <span class="meter lvl5 striped active"></span>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </div>
