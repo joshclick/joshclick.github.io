@@ -83,10 +83,8 @@ events:
   ]
 ---
 
-<div class="row" id="main-img">
-  <div class="small-12 columns">
+<div class="row" id="about-img">
     <img src="{{ site.media_url }}/img/forest-ponder.jpg" alt="Forest Pondering">
-  </div>
 </div>
 
 <div class="row text-center" id="story">
@@ -95,7 +93,7 @@ events:
     <p>life is an adventure</p>
 
     {% for event in page.events reversed %}
-      <div class="event">
+      <div class="row event">
           <p>{{ event[0] }}</p>
           <h3>{{ event[1] }}</h3>
           <h4>{{ event[2] }}</h4>

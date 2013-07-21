@@ -5662,6 +5662,10 @@ a.th {
   max-width: 800px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .post {
   margin-bottom: 50px;
 }
@@ -5674,19 +5678,35 @@ a.th {
   padding-left: 20px;
 }
 
-#main-img {
-  overflow: hidden;
-}
-#main-img img {
-  margin: -7% 0;
-}
-
 #about {
   max-width: 760px;
 }
 #about img {
   max-width: 600px;
   width: 100%;
+}
+#about .icon {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}
+#about .icon.gh {
+  background-image: url("../img/icon-gh.png");
+}
+#about .icon.fb {
+  background-image: url("../img/icon-fb.png");
+}
+#about .icon.in {
+  background-image: url("../img/icon-in.png");
+}
+
+#about-img {
+  overflow: hidden;
+}
+#about-img img {
+  margin: -7% 0;
 }
 
 #story {
@@ -5704,10 +5724,6 @@ a.th {
   max-width: 400px;
   width: 100%;
   margin-left: -5%;
-}
-
-ul {
-  list-style-type: none;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -5808,21 +5824,4 @@ ul {
   -ms-animation: progress-bar-stripes 2s linear infinite;
   -o-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
-}
-
-.icon {
-  display: inline-block;
-  height: 75px;
-  width: 75px;
-  border-radius: 5px;
-  margin: 0 10px 10px 0;
-}
-.icon.gh {
-  background-image: url("../img/icon-gh.png");
-}
-.icon.fb {
-  background-image: url("../img/icon-fb.png");
-}
-.icon.in {
-  background-image: url("../img/icon-in.png");
 }
