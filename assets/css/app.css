@@ -487,7 +487,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 58.75em;
+  max-width: 47.5em;
   *zoom: 1;
 }
 .row:before, .row:after {
@@ -3920,7 +3920,7 @@ form.custom .custom.disabled {
   }
 
   .contain-to-grid .top-bar {
-    max-width: 58.75em;
+    max-width: 47.5em;
     margin: 0 auto;
   }
 
@@ -5678,9 +5678,6 @@ ul {
   padding-left: 20px;
 }
 
-#about {
-  max-width: 760px;
-}
 #about img {
   max-width: 600px;
   width: 100%;
