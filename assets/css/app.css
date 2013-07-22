@@ -5665,6 +5665,9 @@ a.th {
 .post {
   margin-bottom: 60px;
 }
+.post h2 {
+  font-weight: 400;
+}
 .post .published {
   font-size: 0.9em;
   color: #444;
@@ -5673,6 +5676,7 @@ a.th {
 #about img {
   max-width: 600px;
   width: 100%;
+  border-radius: 5px;
 }
 #about .icon {
   display: inline-block;

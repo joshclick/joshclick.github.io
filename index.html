@@ -1,21 +1,18 @@
 ---
 layout: default
-title: Josh Click
+title: About Me
 ---
 
-<div class="row">
-  <div class="small-12 columns" id="blog-posts">
-    <h1>Blog Posts</h1>
-    <div class="row">
-      <div class="small-12 columns" id="post-list">
-        {% for post in site.posts limit:5 %}
-          <div class="post">
-            <h2>{{ post.title }}</h2>
-              {{ post.content }}
-              <p class="published">{{ post.date | date: "%B %d, %Y" }}</p>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
+<div class="row text-center" id="about">
+  <div class="small-12 columns">
+    <h1>About Me</h1>
+  <img src="{{ site.media_url }}/img/face.jpg" alt="Forest Pondering">
+  <br><br>
+    <p>Hi there. I go by Josh Click.</p>
+    <p>I'm a student, a New Yorker, a hacker, and entrepreneur</p>
+    <p>Find me on:</p>
+    <a href="http://github.com/joshclick/" class="icon gh"></a>
+    <a href="http://www.facebook.com/JoshQian" class="icon fb"></a>
+    <a href="http://www.linkedin.com/pub/joshua-qian/56/404/483" class="icon in"></a>
   </div>
 </div>
