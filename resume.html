@@ -1,196 +1,88 @@
 ---
 layout: default
 title: Resume
-experience:
-  - name: "Parse.ly"
-    location: "New York, NY"
-    position: "Front-End Development Intern"
-    dates:
-    - ["Jun 2013", "Present"]
-    tasks: 
-    - [
-        "Build new public site (parse.ly) using: Hyde, Bootstrap, HTML, CSS, JS",
-        "Handle “big data” and build D3 data visualizations around it for public consumption"
-      ]
-
 ---
 <div class="row">
-    <div class="small-12 columns">
-      <h1>My Resume</h1>
-    </div>
-    <div class="small-12 columns section-container auto" data-section="" data-section-resized="true">
-        <section class="row section active">
-          <p class="title"><a href="#panel1">For My Mom</a></p>
-          <div class="small-12 columns content" data-slug="panel1">
-            <div class="">
-              <h2>Education</h2>
-              <h4>New York University: College of Arts and Science (Class of '15)</h4>
-              <p>NYU Presidential Honors Scholar</p>
-              <p>Computer Science</p>
-              <p>GPA: 3.65</p>
+  <div class="small-12 columns">
+    <h1>My Resume</h1>
 
-              <h2>Experience</h2>
+    <h2>Education</h2>
 
-              <h4>Parse.ly: <em>Front-end Development</em></h4>
-              <p>Jun 2013 – Present</p>
-              <ul>
-                <li>Build new public site (parse.ly) from scratch using: Hyde, Bootstrap, HTML, CSS, JS</li>
-                <li>Handle “big data” and build D3 data visualizations around it for public consumption</li>
-              </ul>
+    <div class="small-12 columns job">
+      <h3>New York University: College of Arts and Science</h3>
+      <h4>Class of '15</h4>
+      <p>NYU Presidential Honors Scholar<br>
+        Computer Science<br>
+        GPA: 3.65</p>
+      </div>
 
-              <h4>Itemize.com: <em>Business Intern</em></h4>
-              <p>Apr 2013 – Jun 2013</p>
-              <ul>
-                <li>Market research and official documentation preparation</li>
-                <li>Improved receipt processing algorithms via supervised learning</li>
-              </ul>
+      <h2>Experience</h2>
+      
+      <div class="small-12 columns job">
+        <h3>Parse.ly</h3>
+        <p>Front-end Development<br>
+        Jun 2013 – Present</p>
+        <ul>
+          <li>Build new public site (parse.ly) from scratch using: Hyde, Bootstrap, HTML, CSS, JS</li>
+          <li>Handle “big data” and build D3 data visualizations around it for public consumption</li>
+        </ul>
+      </div>
+      <div class="small-12 columns job">
+        <h3>Itemize.com</h3>
+        <p>Business Intern<br>
+        Apr 2013 – Jun 2013</p>
+        <ul>
+          <li>Market research and official documentation preparation</li>
+          <li>Improved receipt processing algorithms via supervised learning</li>
+        </ul>
+      </div>
+      <div class="small-12 columns job">
+        <h3>Let's Get Ready</h3>
+        <p>Head Math Coach (Volunteer)<br>
+        Aug 2012 - Apr 2013</p>
+        <ul>
+          <li>Worked with low income students to boost their SAT Scores</li>
+          <li>Empowered students to make college an attainable reality</li>
+        </ul>
+      </div>
+      <div class="small-12 columns job">
+        <h3>TickPick.com</h3>
+        <p>Marketing, Business &amp; Engineering Intern<br>
+        May 2013 - Jan 2013</p>
+        <ul>
+          <li>Designed, programed and troubleshot new HTML5 iteration of website</li>
+          <li>Automated essential tasks with scripting and macros</li>
+          <li>Created and managed Facebook, PPC and email campaigns</li>
+          <li>Tracked statistics using various analytical tools (Google Analytics, CrazyEgg, SEOMoz, Spyfu, etc)</li>
+        </ul>
+      </div>
 
-              <h4>Let's Get Ready: <em>Head Math Coach (Volunteer)</em></h4>
-              <p>Aug 2012 - Apr 2013</p>
-              <ul>
-                <li>Worked with low income students to boost their SAT Scores</li>
-                <li>Empowered students to make college an attainable reality</li>
-              </ul>
-
-              <h4>TickPick.com: <em>Marketing, Business &amp; Engineering Intern</em></h4>
-              <p>May 2013 - Jan 2013</p>
-              <ul>
-                <li>Designed, programed and troubleshot new HTML5 iteration of website</li>
-                <li>Automated essential tasks with scripting and macros</li>
-                <li>Created and managed Facebook, PPC and email campaigns</li>
-                <li>Tracked statistics using various analytical tools (Google Analytics, CrazyEgg, SEOMoz, Spyfu, etc)</li>
-              </ul>
-
-              <h2>Activities</h2>
-
-              <h4>hackNY Fellowship: <em>2013 Summer Fellow</em></h4>
-              <p>Jun 2013 - Present</p>
-              <ul>
-                <li>Participate in speaker series, led by founders of successful NYC startups and other tech leaders in NYC</li>
-                <li>Engage with other fellows to expand technical knowledge and network</li>
-              </ul>
-
-              <h4>NYU Presidential Honors Scholars Trips: <em>Florence, Italy &amp; Berlin, Germany</em></h4>
-              <p>Winter Break 2011 &amp; Spring Break 2013</p>
-              <ul>
-                <li>Learn about the history of Florence and Berlin and experience the culture, led by NYU Professors</li>
-              </ul>
-
-              <h4>NYU Alternative Breaks: <em>Volunteer @ Joplin, MO</em></h4>
-              <ul>
-                <li>Aid locals in rebuilding their town after a tornado wiped it clean</li>
-                <li>Looked at poverty and disaster in America, first hand</li>
-              </ul>
-            </div>  
-          </div>  
-        </section>
-        <section class="row section">
-          <p class="title"><a href="#panel2">For Coders</a></p>
-          <div class="small-12 columns content" data-slug="panel2" style="left:0;">
-            <div class="">
-{% highlight json linenos %}
-{
-    "_comment" : "resume.json",
-    "education": {
-        "New York University": {
-            "Class": 2015,
-            "Honors": "NYU Presidential Honors Scholars",
-            "Major": "Computer Science",
-            "GPA": 3.65
-        },
-    "experience": {
-        "Parse.ly": {
-            "location": "New York, NY",
-            "position": "Front-End Development Intern",
-            "dates": {
-                "start": "2013-6-1T00:00:00.000-00:00",
-                "stop": null
-            },
-            "tasks": [
-                "Build new public site (parse.ly) using: Hyde, Bootstrap, HTML, CSS, JS",
-                "Handle “big data” and build D3 data visualizations around it for public consumption"
-            ]
-        },
-        "hackNY Fellowship": {
-            "location": "New York, NY",
-            "position": "2013 Summer Fellow",
-            "dates": {
-                "start": "2013-6-1T00:00:00.000-00:00",
-                "stop": null
-            },
-            "tasks": [
-                "Participate in speaker series, led by founders of successful NYC startups and other tech leaders in NYC",
-                "Engage with other fellows to expand technical knowledge and network"
-            ]
-        },
-        "Itemize.com": {
-            "location": "New York, NY",
-            "position": "Business Intern",
-            "dates": {
-                "start": "2013-4-1T00:00:00.000-00:00",
-                "stop": "2013-6-1T00:00:00.000-00:00"
-            },
-            "tasks": [
-                "Market research and official documentation preparation",
-                "Improved receipt processing algorithms via supervised learning"
-            ]
-        },
-        "Let's Get Ready": {
-            "location": "New York, NY",
-            "position": "Head Math Coach (Volunteer)",
-            "dates": {
-                "start": "2012-8-1T00:00:00.000-00:00",
-                "stop": "2013-4-1T00:00:00.000-00:00"
-            },
-            "tasks": [
-                "Worked with underprivileged students to boost their SAT Scores",
-                "Empowered students to make college an attainable reality"
-            ]
-        },
-        "TickPick.com": {
-            "location": "New York, NY",
-            "position": "Business and Engineering Intern",
-            "dates": {
-                "start": "2012-5-1T00:00:00.000-00:00",
-                "stop": "2013-1-1T00:00:00.000-00:00"
-            },
-            "tasks": [
-                "Designed, programed and troubleshot new HTML5 iteration of website",
-                "Automated essential tasks with scripting and macros",
-                "Created and managed Facebook, PPC and email campaigns",
-                "Tracked statistics using various analytical tools (Google Analytics, CrazyEgg, SEOMoz, Spyfu, etc)"
-            ]
-        },
-    },
-    "activities": {
-        "NYU Presidential Honors Scholars Trips": {
-            "locations": [
-                "Florence, Italy",
-                "Berlin, Germany"
-            ],
-            "dates": [
-                "Winter Break 2011",
-                "Spring Break 2013"
-            ],
-            "tasks": [
-                "Learn about the history of Florence and Berlin and experience the culture, led by NYU Professors"
-            ]
-        },
-        "NYU Alternative Breaks": {
-            "locations": [
-                "Joplin, MO"
-            ],
-            "position": "Volunteer",
-            "dates": ["Spring Break 2012"],
-            "tasks": [
-                "Aid locals in rebuilding their town after a tornado wiped it clean",
-                "Looked at poverty and disaster in America, first hand",
-            ]
-        }
-    }
-}
-{% endhighlight %}
-            </div>
-          </div>
-        </section>
- </div>
+      <h2>Activities</h2>
+      <div class="small-12 columns job">
+        <h3>hackNY Fellowship</h3>
+        <p>2013 Summer Fellow<br>
+        Jun 2013 - Present</p>
+        <ul>
+          <li>Participate in speaker series, led by founders of successful NYC startups and other tech leaders in NYC</li>
+          <li>Engage with other fellows to expand technical knowledge and network</li>
+        </ul>
+      </div>
+      <div class="small-12 columns job">
+        <h3>NYU Presidential Honors Scholars Trips</h3>
+        <p>Florence, Italy &amp; Berlin, Germany<br>
+        Winter Break 2011 &amp; Spring Break 2013</p>
+        <ul>
+          <li>Learn about the history of Florence and Berlin and experience the culture, led by NYU Professors</li>
+        </ul>
+      </div>
+      <div class="small-12 columns job">
+        <h3>NYU Alternative Breaks</h3>
+        <p>Volunteer @ Joplin, MO<br>
+        >
+          <li>Aid locals in rebuilding their town after a tornado wiped it clean</li>
+          <li>Looked at poverty and disaster in America, first hand</li>
+        </ul>
+      </div>  
+    </div>  
+  </div>
+</div>
